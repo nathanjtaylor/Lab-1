@@ -3,6 +3,7 @@ body{
     font-family: Helvetica, sans-serif;
     border-top: 15px solid #424242;
     margin: 0 auto;
+    color: #424242;
 }
 
 main{
@@ -18,7 +19,7 @@ main{
 
 .masthead{
     background-image: url('Images/Mac.jpg') ;
-    height: 200px;
+    height: 250px;
     border-radius: 20px;
     background-position: bottom;
     background-size: cover;
@@ -28,15 +29,45 @@ main{
     flex-grow: 1;
     flex-basis: 0;
     background: #eee;
-    padding: 20px;
-    border-radius: 25px;
+    border-radius: 20px;
     margin-top: 25px;
 }
 
+.details section p{
+    margin: 25px;
+
+}
+
+.details section h2{
+    margin: 25px;
+}
+
+.details section.with-code{
+    padding: 0;
+}
+
+
+div.code-html{
+    padding: 25px;
+    background: #424242;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
 img {
     width: 100%;
-    border-radius: 20px;
-    c
+}
+
+h1{
+    background-image: url('Images/Logo.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    font-size: 3em;
+    padding-left: 55px;
+    background-position: center left;
+    margin: 100px 0 25px 0;
 }
 
 h2{
