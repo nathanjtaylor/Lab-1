@@ -2,9 +2,48 @@ body{
     background: #fff;
     font-family: Helvetica, sans-serif;
     border-top: 15px solid #424242;
-    margin: 0;
+    margin: 0 auto;
+}
+
+main{
+    margin: 0 auto;
+    width: 800px;
+}
+
+.details{
+    display: flex;
+    gap: 25px;
+
+}
+
+.masthead{
+    background-image: url('Images/Mac.jpg') ;
+    height: 200px;
+    border-radius: 20px;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.details section{
+    flex-grow: 1;
+    flex-basis: 0;
+    background: #eee;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 25px;
 }
 
 img {
     width: 100%;
+    border-radius: 20px;
+    c
+}
+
+h2{
+    margin: 0 0 10px 0;
+}
+
+p{
+    margin: 0;
+    line-height: 1.4em;
 }
