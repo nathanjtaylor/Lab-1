@@ -18,17 +18,15 @@ main{
 }
 
 .masthead{
-    background-image: url('Images/Mac.jpg') ;
     height: 250px;
     border-radius: 20px;
-    background-position: bottom;
-    background-size: cover;
+    background: no-repeat bottom / cover url('Images/Mac.jpg');
 }
 
 .details section{
     flex-grow: 1;
     flex-basis: 0;
-    background: #eee;
+    background: #E9EAEC;
     border-radius: 20px;
     margin-top: 25px;
 }
